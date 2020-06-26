@@ -21,6 +21,9 @@ public class RabbitMQConfigurer {
     static final String queueName = "spring-boot";
     static final String queueName1 = "database";
     static final String queueName2 = "product";
+    static final String queueName3 = "tiers";
+    static final String queueName4 = "marketing";
+    static final String queueName5 = "sells_purshase";
 
     @Bean
     Queue queue() {
@@ -34,6 +37,19 @@ public class RabbitMQConfigurer {
     Queue queue2() {
         return new Queue(queueName2, false);
     }
+    @Bean
+    Queue queue3() {
+        return new Queue(queueName3, false);
+    }
+    @Bean
+    Queue queue4() {
+        return new Queue(queueName4, false);
+    }
+    @Bean
+    Queue queue5() {
+        return new Queue(queueName5, false);
+    }
+
 
     @Bean
     TopicExchange exchange() {
@@ -52,6 +68,18 @@ public class RabbitMQConfigurer {
     Binding binding2(Queue queue2, TopicExchange exchange) {
         return BindingBuilder.bind(queue2).to(exchange).with("foo.product.#");
     }
+    @Bean
+    Binding binding3(Queue queue3, TopicExchange exchange) {
+        return BindingBuilder.bind(queue3).to(exchange).with("foo.tiers.#");
+    }
+    @Bean
+    Binding binding4(Queue queue4, TopicExchange exchange) {
+        return BindingBuilder.bind(queue4).to(exchange).with("foo.marketing.#");
+    }
+    @Bean
+    Binding binding5(Queue queue5, TopicExchange exchange) {
+        return BindingBuilder.bind(queue5).to(exchange).with("foo.sells_purshase.#");
+    }
 
     @Bean
     SimpleMessageListenerContainer container(ConnectionFactory connectionFactory,
@@ -61,6 +89,10 @@ public class RabbitMQConfigurer {
         container.setQueueNames(queueName);
         container.setQueueNames(queueName1);
         container.setQueueNames(queueName2);
+        container.setQueueNames(queueName3);
+        container.setQueueNames(queueName4);
+        container.setQueueNames(queueName5);
+
         container.setMessageListener(listenerAdapter);
         return container;
     }

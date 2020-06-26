@@ -1,6 +1,6 @@
 # ERP Spring boot angular application, under microservices and Multi tenancy architectures 
 ##Structure
-
+![alt text](https://github.com/zakariaelattar/Spring-Boot-Angular-Microservices-Multi-tenant-ERP-with-LSTM-sells-forecast/blob/master/microservice_diagram.png?raw=true)
 ##Microservices
 
 These are the microserices used in the project, and functional port : 
