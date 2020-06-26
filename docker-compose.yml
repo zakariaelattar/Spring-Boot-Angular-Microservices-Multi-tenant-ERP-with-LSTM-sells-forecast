@@ -1,0 +1,47 @@
+
+version: '3'
+services:
+  discovery:
+    image: zakariaelattar/register_microservice:latest
+    ports:
+      - 8761:8761    
+    depends_on:
+      - config
+  config:
+    image: zakariaelattar/config_microservice:latest
+    environment:
+      - JAVA_OPTS=
+        -DEUREKA_SERVER=http://discovery:8761/eureka
+ 
+
+    ports:
+      - 8888:8888
+  database:
+    image: zakariaelattar/db_microservice:latest
+    environment:
+      - JAVA_OPTS=
+        -DEUREKA_SERVER=http://discovery:8761/eureka
+    depends_on:
+      - discovery
+      - config
+  proxy:
+    image: zakariaelattar/proxy_microservice:latest
+    environment:
+      - JAVA_OPTS=
+      - DEUREKA_SERVER=http://discovery:8761/eureka
+
+    restart: on-failure
+    depends_on:
+      - discovery
+      - config
+    ports:
+      - 8088:8088
+
+  Product:
+    image: zakariaelattar/db_microservice:latest
+    environment:
+        - JAVA_OPTS=
+        - DEUREKA_SERVER=http://discovery:8761/eureka
+        depends_on:
+          - discovery
+          - config      
