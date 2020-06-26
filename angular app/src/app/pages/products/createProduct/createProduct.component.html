@@ -1,0 +1,287 @@
+<div class=" content">
+  <div class=" row">
+    <div class=" col-md-6">
+      <div class=" card">
+        <div class=" card-header"><h2 class=" text-muted">Creer un produit</h2></div>
+        <div class=" card-body">
+          <form>
+            <div class=" row">
+              <div class=" col-md-5 pr-md-1">
+                <div class=" form-group">
+                  <label> Ref </label>
+                  <input
+                    class=" form-control"
+                    name="ref"
+                    placeholder="Reference du produit"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div class=" col-md-7 px-md-1">
+                <div class=" form-group">
+                  <label> Labelle </label>
+                  <input
+                    class=" form-control"
+                    placeholder="Username"
+                    type="text"
+                    name="label"
+                  />
+                </div>
+              </div>
+
+            </div>
+            <div class=" row mb-5">
+              <div class=" col-md-6 pr-md-1">
+                <div class=" form-group">
+                  <label> Etat (vente)</label>
+                  <select class="form-control" id="tosell" name="tosell">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+              </div>
+              <div class=" col-md-6 pr-md-1">
+                <div class=" form-group">
+                  <label> Etat (achat)</label>
+                  <select class="form-control" id="tobuy" name="tobuy">
+                    <option>1</option>
+                    <option>2</option>
+
+                  </select>
+                </div>
+              </div>
+            </div>
+            <span class="text-muted mt-5">Informations general sur le produit</span>
+            <hr>
+            <div class=" row">
+              <div class=" col-md-6 pr-md-1">
+                <div class=" form-group">
+                  <label>Nature</label>
+                  <select class="form-control" id="tosell" name="tosell">
+                    <option>1</option>
+                    <option>2</option>
+                  </select>
+                </div>
+              </div>
+              <div class=" col-md-6 pr-md-1">
+                <div class=" form-group">
+                  <label> Poid</label>
+                  <div class="row">
+                    <input type="number" class="form-control col-md-6">
+                    <select class="form-control col-md-5 ml-1 " id="tobuy" name="tobuy">
+                      <option>g</option>
+                      <option>p</option>
+
+                    </select>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class=" row ml-1">
+              <div class=" col-md-6 pr-md-1">
+                <div class=" form-group ">
+                  <label> Longueur x Largeur x Hauteur</label>
+                  <div class="row">
+                    <input type="number" class="form-control col-md-2 ">
+                    <input type="number" class="form-control col-md-2  ml-1">
+                    <input type="number" class="form-control col-md-2 ml-1">
+                    <select class="form-control col-md-4 ml-1 " id="tobuy" name="tobuy">
+                      <option>m</option>
+                      <option>cm</option>
+
+                    </select>
+                  </div>
+
+                </div>
+              </div>
+              <div class=" col-md-6 pr-md-1">
+                <div class=" form-group">
+                  <label> Surface</label>
+                  <div class="row">
+                    <input type="number" class="form-control col-md-6">
+                    <select class="form-control col-md-5 ml-1 " id="tobuy" name="tobuy">
+                      <option>m²</option>
+                      <option>p</option>
+
+                    </select>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class=" row ml-1">
+              <div class=" col-md-6 pr-md-1">
+                <div class=" form-group">
+                  <label>Volume</label>
+                  <div class="row">
+                    <input type="number" class="form-control col-md-6 ">
+
+                    <select class="form-control col-md-4 ml-1 " id="tobuy" name="tobuy">
+                      <option>m</option>
+                      <option>cm</option>
+
+                    </select>
+                  </div>
+
+                </div>
+              </div>
+              <div class=" col-md-6 pr-md-1">
+                <div class=" form-group">
+                  <label> Pays d'origine</label>
+
+                  <select class="form-control "
+                          id="country"
+                          name="country"
+                  >
+                    <option *ngFor="let country in this.countries">{{country}}</option>
+
+                  </select>
+
+
+                </div>
+              </div>
+            </div>
+            <div class=" row">
+              <div class=" col-md-5 pr-md-1 mr-1">
+                <div class=" form-group">
+                  <label>Categorie</label>
+                  <div class="row ml-1">
+                    <select class="form-control col-md-12 ml-1 " id="categorie" name="categorie">
+                      <option>accessoire</option>
+                      <option>cm</option>
+
+                    </select>
+                  </div>
+
+                </div>
+              </div>
+              <div class=" col-md-6 pr-md-1">
+                <div class=" form-group">
+                  <label> Description du produit </label>
+                  <textarea
+                    class=" form-control"
+                    cols="80"
+                    placeholder="Description du produit"
+                    rows="4"
+
+                  >
+
+</textarea>
+                </div>
+              </div>
+            </div>
+            <span class="text-muted">Information digital sur le produit</span>
+            <hr>
+            <div class=" row mb-5">
+              <div class=" col-md-12">
+                <div class=" form-group">
+                  <label> Url publique </label>
+                  <input
+                    class=" form-control"
+                    placeholder="Adresse du produit dans le site de l'entreprise"
+                    type="text"
+
+                  />
+                </div>
+              </div>
+            </div>
+            <span class="text-muted">Information financiere et comptable du produit</span>
+            <hr>
+            <div class=" row ml-1">
+              <div class=" col-md-4 pr-md-1">
+                <div class=" form-group">
+                  <label>Prix de vente</label>
+                  <div class="row">
+                    <input type="number" class="form-control col-md-4">
+                    <select class="form-control col-md-4 ml-1" id="tosell" name="tosell">
+                      <option>HT</option>
+                      <option>TTC</option>
+                    </select>
+
+                  </div>
+                </div>
+              </div>
+              <div class=" col-md-4 pr-md-1">
+                <div class=" form-group">
+                  <label> Prix de vente min</label>
+                  <div class="row">
+                    <input type="number" class="form-control col-md-6">
+                  </div>
+
+                </div>
+              </div>
+              <div class=" col-md-4 pr-md-1">
+                <div class=" form-group">
+                  <label>Taux TVA</label>
+
+                  <select class="form-control col-md-6 ml-1" id="tva" name="tosell">
+                    <option>0%</option>
+                    <option>10%</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class=" row">
+              <div class=" col-md-6 pr-md-1">
+                <div class=" form-group">
+                  <label>Code comptabilité (Achat)</label>
+
+                  <select class="form-control" id="tosell" name="tosell">
+                    <option>1</option>
+                    <option>2</option>
+                  </select>
+
+                </div>
+              </div>
+              <div class=" col-md-6 pr-md-1">
+                <div class=" form-group">
+                  <label>Code comptabilité (Vente)</label>
+
+                  <select class="form-control" id="tosell" name="tosell">
+                    <option>1</option>
+                    <option>2</option>
+                  </select>
+
+                </div>
+              </div>
+
+            </div>
+          </form>
+        </div>
+        <div class=" card-footer">
+          <button class=" btn btn-fill btn-success"
+                  type="submit"
+                  (click)="create(product)"
+          >Enregister
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <table>
+        <button (click)="getAll()">get</button>
+        <tbody>
+        <th>id</th>
+        <th>ref</th>
+        <th>tms</th>
+        <th>entity</th>
+        <th>ref_ext</th>
+        <th>date</th>
+        <tr *ngFor="let p of products">
+          <td>{{p.rowid}}</td>
+          <td>{{p.ref}}</td>
+          <td>{{p.tms}}</td>
+          <td>{{p.entity}}</td>
+          <td>{{p.ref_ext}}</td>
+          <td>{{p.date_c}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d629a1e-ca71-45e0-8564-f38aa707235a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/can_security_service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/can_security_service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/can_security_service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/can_security_service/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/can_security_service/src/main/java/com/bezkoder/springjwt/Database/Filters/IncomeRequestFromAuthJwtFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/can_security_service/src/main/java/com/bezkoder/springjwt/Database/HibernateAdaptation/HibernateConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/can_security_service/src/main/java/com/bezkoder/springjwt/Database/HibernateAdaptation/MultiTenantConnectionProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/can_security_service/src/main/java/com/bezkoder/springjwt/Database/HibernateAdaptation/TenantSchemaResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/can_security_service/src/main/java/com/bezkoder/springjwt/Database/Identifiers/PathMatchingConfigurationAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/can_security_service/src/main/java/com/bezkoder/springjwt/Database/Identifiers/RequestInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/can_security_service/src/main/java/com/bezkoder/springjwt/Database/Identifiers/TenantContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/can_security_service/src/main/java/com/bezkoder/springjwt/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/can_security_service/src/main/java/com/bezkoder/springjwt/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/can_security_service/src/main/java/com/bezkoder/springjwt/security/jwt/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/can_security_service/src/main/java/com/bezkoder/springjwt/security/jwt/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/can_security_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/can_security_service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1adTGmWeMqMfNpPP4amFR2qx9tt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CannonBANK/src" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\Data\Ensa\4 eme annee\s2\Projet de semestre\Spring-Boot-Angular-ERP-microservices\can_db_handler_service\src\main\java\org\sid\can_db_handler_service" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d629a1e-ca71-45e0-8564-f38aa707235a" name="Default Changelist" comment="" />
+      <created>1587064377611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587064377611</updated>
+      <workItem from="1587064386117" duration="27000" />
+      <workItem from="1592814811942" duration="685000" />
+      <workItem from="1592839891172" duration="2852000" />
+      <workItem from="1592949288137" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="980" y="185" key="FileChooserDialogImpl" timestamp="1592840183801">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="980" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1592840183801" />
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1592815020658">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1592815020658" />
+    <state x="896" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1592839892468">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="896" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1592839892468" />
+    <state x="266" y="146" key="new project wizard" timestamp="1592840106815">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="266" y="146" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1592840106815" />
+  </component>
+</project>
