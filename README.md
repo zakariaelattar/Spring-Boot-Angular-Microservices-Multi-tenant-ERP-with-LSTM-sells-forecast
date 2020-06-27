@@ -2,7 +2,7 @@
     This project is about an ERP (Entreprise Resource Planning) developped using the latest technologies, a microservice architecture with an asynchronous communication via RabbitMQ broker, a multi tenancy, architecture (single database, multiple schemas), and a machine learning algorithm for sales forecasting.
 
 ## Structure
-![alt text](https://github.com/zakariaelattar/Spring-Boot-Angular-Microservices-Multi-tenant-ERP-with-LSTM-sells-forecast/blob/master/microservice_diagram.png?raw=true)
+![alt text](https://github.com/zakariaelattar/Spring-Boot-Angular-Microservices-Multi-tenant-ERP-with-LSTM-sells-forecast/blob/master/cannon_erp.png?raw=true)
 
 ## Microservices
 
