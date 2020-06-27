@@ -3199,3 +3199,20 @@
 2020-06-27 03:55:26.005  INFO 21116 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2020-06-27 04:00:26.065  INFO 21116 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2020-06-27 04:05:26.069  INFO 21116 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-27 04:10:26.073  INFO 21116 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-27 04:15:26.076  INFO 21116 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-06-27 04:17:35.123  INFO 21116 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CAN_DB_HANDLER_SERVICE with eureka with status DOWN
+2020-06-27 04:17:35.126  WARN 21116 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1593231455125, current=DOWN, previous=UP]
+2020-06-27 04:17:35.128  INFO 21116 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CAN_DB_HANDLER_SERVICE/DESKTOP-G9CQ7LO.Home:can_db_handler_service:8081: registering service...
+2020-06-27 04:17:35.166  INFO 21116 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CAN_DB_HANDLER_SERVICE/DESKTOP-G9CQ7LO.Home:can_db_handler_service:8081 - registration status: 204
+2020-06-27 04:17:35.393  INFO 21116 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-06-27 04:17:35.517  INFO 21116 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-06-27 04:17:35.526  INFO 21116 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-06-27 04:17:36.470  INFO 21116 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-06-27 04:17:36.543  INFO 21116 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2020-06-27 04:17:36.543  INFO 21116 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-27 04:17:36.567  INFO 21116 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2020-06-27 04:17:36.617  INFO 21116 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-27 04:17:36.664  INFO 21116 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-27 04:17:36.688  INFO 21116 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-06-27 04:17:36.689  INFO 21116 --- [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
