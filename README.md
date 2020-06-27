@@ -1,7 +1,10 @@
 # ERP Spring boot angular application, under microservices and Multi tenancy architectures 
-##Structure
+    This project is about an ERP (Entreprise Resource Planning) developped using the latest technologies, a microservice architecture with an asynchronous communication via RabbitMQ broker, a multi tenancy, architecture (single database, multiple schemas), and a machine learning algorithm for sales forecasting.
+
+## Structure
 ![alt text](https://github.com/zakariaelattar/Spring-Boot-Angular-Microservices-Multi-tenant-ERP-with-LSTM-sells-forecast/blob/master/microservice_diagram.png?raw=true)
-##Microservices
+
+## Microservices
 
 These are the microserices used in the project, and functional port : 
 
@@ -21,11 +24,15 @@ These are the microserices used in the project, and functional port :
 
 >Finance and marketing microservice :8085
 
-##Instalation
-##Docker
+## Instalation
+## Docker
 Using docker compose :
 
 >$ docker-compose -f docker-compose up -d
 
 run each microservice independently of the others:
+
 >$ docker build  
+
+
+To be continued ..

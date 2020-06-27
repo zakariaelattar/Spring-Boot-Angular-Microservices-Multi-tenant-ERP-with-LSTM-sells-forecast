@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.cannonerp</groupId>
-    <artifactId>can_tiers_service</artifactId>
+    <artifactId>tiers_service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>can_tiers_service</name>
-    <description>Microservice for handling the tiers of entreprise</description>
+    <name>tiers_service</name>
+    <description>Tiers handler microservice</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -23,6 +23,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-rest</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
