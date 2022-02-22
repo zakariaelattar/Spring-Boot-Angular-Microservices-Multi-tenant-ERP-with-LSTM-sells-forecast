@@ -2,7 +2,7 @@
 The project is a prototype and was done by 3 Software engineers (Zakaria El attar, Omar Imai, Abderrafia Niya), it may help to understand the architecture of microservices under Spring Boot, and also an implementation of the LSTM algorithm for forcast recommandation.
 to contact Us:
 
-*El Attar Zakaria: elatttarz@yahoo.com
+* El Attar Zakaria: elatttarz@yahoo.com
 * Omar Imai: omarimai@gmail.com
 
 # Introduction
